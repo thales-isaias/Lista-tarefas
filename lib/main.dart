@@ -116,7 +116,7 @@ setState(() {
       ),
       direction: DismissDirection.startToEnd,
       child:CheckboxListTile(
-      title: Text(_toDoList[index]["title"]),
+      title: Text(_toDoList[index]["title"]), /*Teste*/
       value: _toDoList[index]["ok"],
       secondary: CircleAvatar(
         child: Icon(_toDoList[index]["ok"] ? Icons.check : Icons.error),
